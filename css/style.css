@@ -136,7 +136,11 @@ label {
   line-height: 29px;
   color: #F16D7F;
 }
+h4 {
+  font-weight: lighter;
+}
 .top-head__breadcrumbs {
+
   list-style-type: none;
   display: flex;
   gap: 10px;
@@ -149,6 +153,7 @@ label {
 }
 .top-head__title {
   color: #F16D7F;
+
   font-weight: bold;
 }
 
@@ -232,6 +237,9 @@ label {
   background: #FFF;
 }
 .main-product__info {
+  border-style: solid;
+  border-color: #EAEAEA;
+  border-width: thin;
   margin-top: -65px;
   padding: 65px 293px;
   background-color: #FFFFFF;
@@ -264,6 +272,9 @@ label {
   color: #5E5E5E;
   margin: 48.41px 0 32.27px;
 }
+.main-product__info__line {
+  margin-top: 35px ;
+}
 .main-product__info__price {
   font-family: Lato;
   font-size: 24px;
@@ -272,9 +283,10 @@ label {
   color: #F16D7F;
 }
 .main-product__info__features {
-  margin: 130.09px 0 48.91px;
+  margin:36.09px 0 25.90px;
   display: flex;
-  gap: 42px;
+  gap: 22px;
+  align-items: baseline;
 }
 .main-product__info__features button {
   font-family: Lato;
@@ -289,8 +301,7 @@ label {
 .main-product__info__button {
   padding: 14.62px 57px 8.57px 24px;
   display: flex;
-  align-items: center;
-  gap: 22.91px;
+  background-color: #ffffff;  gap: 22.91px;
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
